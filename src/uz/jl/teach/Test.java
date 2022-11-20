@@ -2,7 +2,7 @@ package uz.jl.teach;
 
 
 /**
- * @author jlkesh
+ * This comment belongs to class Test
  */
 public class Test {
     /**

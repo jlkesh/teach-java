@@ -1,10 +1,11 @@
 package uz.jl.teach;
 
 /**
- * this class just for testing
+ * Docs for Main class
+ * {@inheritDoc}
  * @author jlkesh
  */
-public class Main {
+public class Main extends Test {
 
     public Main() {
     }
@@ -20,6 +21,7 @@ public class Main {
 
     /**
      * This method multiplies given double parameter by 2
+     * @serialData data-description
      *
      * @param a is input parameter
      * @return returns doubled value of <code>a</code> input param
