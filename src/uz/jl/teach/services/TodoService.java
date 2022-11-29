@@ -20,10 +20,10 @@ public class TodoService {
         todos[2] = TodoTable.todos[currentPage * size + 2];
 
         return new TodoPage(totalPageCount,
-                currentPage,
+                0,
                 currentPage != totalPageCount,
                 currentPage != 0,
-                todos
+                TodoTable.todos
         );
 
     }
